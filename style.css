@@ -536,6 +536,19 @@ html,body{
     margin-top: 0;
     letter-spacing: 1px;
 }
+::-webkit-scrollbar{
+    scroll-behavior: smooth;
+    width: 13px;
+
+}
+::-webkit-scrollbar-track{
+    background: #070707;
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 25px;
+    background: linear-gradient(#f75c2d,#f75c2d);
+}
 /* .top{
     position: fixed;
     bottom: 2.1rem;
