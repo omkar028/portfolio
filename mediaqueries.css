@@ -175,9 +175,9 @@
     .last-text p{
         font-size: 13px;
     }
-
-
-
+    ::-webkit-scrollbar{
+        display:none;
+    }
 
 
 
